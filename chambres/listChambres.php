@@ -38,9 +38,9 @@ closeDatabaseConnection($conn);
             <td><?= $chambre['numero'] ?></td>
             <td><?= $chambre['capacite'] ?></td>
             <td>
-                <a href="editChambre.php?id=<?= $chambre['id'] ?>"><i class="fas fa-pen"></i></a>
-                <a href="deleteChambre.php?id=<?= $chambre['id'] ?>" 
-                    onclick="return confirm('Êtes-vous sûr?')"><i class="fa-solid fa-xmark fa-xl" style="color: #c82a19;"></i>
+                <a href="editChambre.php?id=<?= $chambre['id'] ?>" class="btn btn-primary" ><i class="fas fa-pen"></i></a>
+                <a href="deleteChambre.php?id=<?= $chambre['id'] ?>" class="btn btn-danger"
+                    onclick="return confirm('Êtes-vous sûr?')"><i class="fa-solid fa-trash-can"></i>
                 </a>
             </td>
         </tr>

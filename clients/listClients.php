@@ -27,11 +27,11 @@ closeDatabaseConnection($conn);
 <body>
     <?php include '../assets/navbar.php'; ?>
     <h1>Liste des Clients</h1>
-    <a href="createClient.php">Ajouter un cliet</a>
+    <a href="createClient.php">Ajouter un client</a>
 
 
-    <table class="table">
-        <tr class="table-primary">
+    <table class="table table-striped">
+        <tr class="table-primary table-striped">
             <th>ID</th>
             <th>Nom</th>
             <th>Télephone</th>
@@ -46,8 +46,8 @@ closeDatabaseConnection($conn);
             <td><?= $client['email'] ?></td>
             <td>
                 <a href="editClient.php?id=<?= $client['id'] ?>" class="btn btn-primary"><i class="fas fa-pen"></i></a>
-                <a href="deleteClient.php?id=<?= $client['id'] ?>" 
-                    onclick="return confirm('Êtes-vous sûr?')">Supprimer
+                <a href="deleteClient.php?id=<?= $client['id'] ?>" class="btn btn-danger" 
+                    onclick="return confirm('Êtes-vous sûr?')"><i class="fa-solid fa-trash-can"></i>
                 </a>
             </td>
         </tr>
