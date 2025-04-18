@@ -24,8 +24,11 @@ closeDatabaseConnection($conn);
 <body>
     <?php include '../assets/navbar.php'; ?>
     <h1>Liste des Chambres</h1>
-    <a href="createChambre.php">Ajouter une chambre</a>
-    <table border="1">
+
+    <div class="actions">
+    <a href="createChambre.php" class="btn btn-success" >Ajouter une chambre</a>
+    </div>
+    <table class = "table table-striped">
         <tr>
             <th>ID</th>
             <th>Numéro</th>

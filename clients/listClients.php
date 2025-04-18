@@ -27,8 +27,9 @@ closeDatabaseConnection($conn);
 <body>
     <?php include '../assets/navbar.php'; ?>
     <h1>Liste des Clients</h1>
-    <a href="createClient.php">Ajouter un client</a>
-
+    <div class="actions">
+    <a href="createClient.php" class="btn btn-success" >Ajouter un client</a>
+    </div>
 
     <table class="table table-striped">
         <tr class="table-primary table-striped">

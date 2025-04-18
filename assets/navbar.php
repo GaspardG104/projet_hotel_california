@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     
@@ -22,9 +23,9 @@
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="/projet_hotel_california/index.php">
                         <i class="fas fa-home"></i>Accueil</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/projet_hotel_california/chambres/listChambres.php">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/projet_hotel_california/chambres/listChambres.php">
                         <i class="fas fa-bed"></i>Chambres</a>
                 </li>
                 <li class="nav-item">
